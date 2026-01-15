@@ -16,8 +16,13 @@ A backend API built with **FastAPI** that generates personalized study plans bas
 - JSON / OpenAPI
 
 ## Running Locally
-
 ### 1. Activate virtual environment
 ```bash
 cd back-end
 .venv\Scripts\Activate.ps1   # Windows
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+
+
+
